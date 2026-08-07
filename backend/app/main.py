@@ -25,6 +25,27 @@ app.include_router(chat_router, prefix="/api/v1")
 app.include_router(assistant_router, prefix="/api/v1")
 app.include_router(health_router, prefix="/api/v1/assistant")  # Conforms to GET /api/v1/assistant/health
 
+@app.on_event("startup")
+def auto_ingest_if_empty():
+    """Automatically populates ChromaDB on startup if vector collection is empty."""
+    from backend.app.core.logging_config import logger
+    from backend.app.vector_store.vector_store_interface import get_vector_store
+    from backend.app.ingestion.pipeline import IngestionPipeline
+
+    try:
+        store = get_vector_store()
+        record_count = store.count()
+        if record_count == 0:
+            logger.info(f"Vector collection '{settings.VECTOR_COLLECTION_NAME}' is empty. Running auto-ingestion from {settings.PRODUCT_DATA_PATH}...")
+            pipeline = IngestionPipeline()
+            result = pipeline.run(settings.PRODUCT_DATA_PATH)
+            logger.info(f"Auto-ingestion complete: {result.embedded_count} chunks embedded successfully.")
+        else:
+            logger.info(f"Vector collection '{settings.VECTOR_COLLECTION_NAME}' loaded with {record_count} chunks.")
+    except Exception as e:
+        logger.error(f"Auto-ingestion failed during startup: {e}")
+
+
 @app.get("/health", tags=["System"])
 def health_check():
     """Simple system health and status check."""
