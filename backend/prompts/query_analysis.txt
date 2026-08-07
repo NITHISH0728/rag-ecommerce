@@ -1,0 +1,23 @@
+Analyze the user's message to extract tech product shopping intent and filters.
+Return a JSON object conforming strictly to this Pydantic schema structure:
+{
+  "intent": "product_recommendation" | "product_search" | "product_comparison" | "product_details" | "specification_question" | "budget_question" | "warranty_question" | "stock_question" | "category_question" | "greeting" | "help" | "unsupported",
+  "category": "Laptops" | "Phones" | "Monitors" | "Keyboards" | "Mice" | "Audio" | "Accessories" | "Tablets" | null,
+  "maximum_price": number | null,
+  "minimum_price": number | null,
+  "brand": string | null,
+  "minimum_rating": number | null,
+  "stock_status": "in_stock" | "low_stock" | "out_of_stock" | null,
+  "use_cases": list of strings,
+  "keywords": list of strings,
+  "comparison_product_ids": list of strings,
+  "requires_retrieval": boolean
+}
+
+Rules:
+1. Strip currency symbols. Convert "60k" to 60000, "1.2 lakh" to 120000.
+2. Maintain brand name casing (e.g. "Dell", "HP").
+3. Do not confuse specification numbers (e.g. 16GB RAM) with prices.
+4. If the message is a greeting or general request (e.g., "Hi", "Help"), set requires_retrieval to false.
+
+Return ONLY the raw JSON block without markdown formatting or other remarks.

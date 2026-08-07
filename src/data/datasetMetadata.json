@@ -1,0 +1,9 @@
+{
+  "name": "ShopSmart AI Demonstration Product Catalog",
+  "version": "1.0.0",
+  "currency": "INR",
+  "recordCount": 80,
+  "generatedAt": "2026-08-06T15:39:12.937Z",
+  "dataClassification": "Curated demonstration data",
+  "disclaimer": "Prices, ratings, stock, warranties, and review figures are demonstration values and are not live retailer data."
+}

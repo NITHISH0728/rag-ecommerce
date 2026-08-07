@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-display: 'Manrope', system-ui, -apple-system, sans-serif;
+
+  --color-bg-main: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-dark-section: #0A0A0A;
+  --color-soft-neutral: #EFEFEC;
+
+  --color-text-primary: #111111;
+  --color-text-secondary: #626262;
+  --color-text-muted: #8A8A8A;
+  --color-text-inverse: #F8F8F8;
+
+  --color-accent-primary: #2563EB;
+  --color-accent-hover: #1D4ED8;
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-error: #B91C1C;
+
+  --color-border-subtle: #E5E5E2;
+}
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #F7F7F5;
+  color: #111111;
+  color-scheme: light;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #F7F7F5;
+  color: #111111;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F7F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D4D0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A3A39E;
+}
+
+/* Refined Utility Classes */
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E5E2;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.03), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  border-color: #D1D1CD;
+  box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.06), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+}
+
+.glass-header {
+  background-color: rgba(247, 247, 245, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "query": "I need a laptop for coding under ₹60,000",
+    "expected_intent": "product_recommendation",
+    "expected_category": "Laptops",
+    "expected_filters": {
+      "category": "Laptops",
+      "maximum_price": 60000.0
+    },
+    "expected_product_ids": ["LAP-001"],
+    "forbidden_product_ids": ["LAP-002", "LAP-003"],
+    "should_have_results": true,
+    "notes": "Ensures Dell Inspiron 15 fits budget constraints."
+  },
+  {
+    "query": "Gaming laptop under ₹80k",
+    "expected_intent": "product_recommendation",
+    "expected_category": "Laptops",
+    "expected_filters": {
+      "category": "Laptops",
+      "maximum_price": 80000.0
+    },
+    "expected_product_ids": ["LAP-004", "LAP-005"],
+    "forbidden_product_ids": [],
+    "should_have_results": true,
+    "notes": "Ensures correct parsing of '80k' multiplier."
+  },
+  {
+    "query": "wireless mechanical keyboard with rgb",
+    "expected_intent": "product_recommendation",
+    "expected_category": "Keyboards",
+    "expected_filters": {
+      "category": "Keyboards"
+    },
+    "expected_product_ids": ["KEY-001", "KEY-003"],
+    "forbidden_product_ids": [],
+    "should_have_results": true,
+    "notes": "Asserts matching mechanical keys specs."
+  },
+  {
+    "query": "Compare Lenovo Legion and ASUS ROG Zephyrus",
+    "expected_intent": "product_comparison",
+    "expected_category": "Laptops",
+    "expected_filters": {
+      "category": "Laptops"
+    },
+    "expected_product_ids": ["LAP-005", "LAP-006"],
+    "forbidden_product_ids": [],
+    "should_have_results": true,
+    "notes": "Verifies product comparison intent mapping."
+  },
+  {
+    "query": "Is there a phone with 10000mAh battery?",
+    "expected_intent": "product_recommendation",
+    "expected_category": "Phones",
+    "expected_filters": {
+      "category": "Phones"
+    },
+    "expected_product_ids": [],
+    "forbidden_product_ids": [],
+    "should_have_results": false,
+    "notes": "Tests no-match scenarios (there are no 10000mAh phones)."
+  }
+]

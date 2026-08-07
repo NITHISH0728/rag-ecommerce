@@ -1,0 +1,24 @@
+USER QUESTION
+{user_question}
+
+ANALYZED INTENT
+{intent}
+
+APPLIED FILTERS
+{applied_filters}
+
+RETRIEVED PRODUCT CATALOG CONTEXT
+{retrieved_context}
+
+RELEVANT CONVERSATION CONTEXT
+{conversation_context}
+
+INSTRUCTIONS FOR THIS RESPONSE
+- Answer the user's exact question.
+- Use only the retrieved product context.
+- Respect every applied hard filter.
+- Include citations for all product-specific claims.
+- Recommend no more than {maximum_recommendations} products.
+- Do not reference products not present in the context.
+- If the context is insufficient, say so directly.
+- Do not expose internal retrieval details.
