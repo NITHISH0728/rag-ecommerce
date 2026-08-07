@@ -42,7 +42,9 @@
       "1tb-ssd"
     ],
     "images": [
-      "/images/products/laptops/lap-001.webp"
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Space Grey",
@@ -100,7 +102,8 @@
       "travel-ready"
     ],
     "images": [
-      "/images/products/laptops/lap-002.webp"
+      "https://images.unsplash.com/photo-1544731612-de7f96afe55f?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Pine Grey",
@@ -156,7 +159,8 @@
       "ryzen-powered"
     ],
     "images": [
-      "/images/products/laptops/lap-003.webp"
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Platinum Silver",
@@ -213,7 +217,8 @@
       "coding"
     ],
     "images": [
-      "/images/products/laptops/lap-004.webp"
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Thunder Black"
@@ -268,7 +273,8 @@
       "2tb-ssd"
     ],
     "images": [
-      "/images/products/laptops/lap-005.webp"
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Eclipse Gray"
@@ -323,7 +329,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-006.webp"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -370,7 +377,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-007.webp"
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -417,7 +425,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-008.webp"
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -464,7 +473,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-009.webp"
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1544731612-de7f96afe55f?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -511,7 +521,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-010.webp"
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -558,7 +569,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-011.webp"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -605,7 +617,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-012.webp"
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -652,7 +665,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-013.webp"
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -699,7 +713,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-014.webp"
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -746,7 +761,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-015.webp"
+      "https://images.unsplash.com/photo-1544731612-de7f96afe55f?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -793,7 +809,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-016.webp"
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -840,7 +857,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-017.webp"
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -887,7 +905,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-018.webp"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -934,7 +953,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-019.webp"
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -981,7 +1001,8 @@
       "windows-laptop"
     ],
     "images": [
-      "/images/products/laptops/lap-020.webp"
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1030,7 +1051,8 @@
       "titanium-body"
     ],
     "images": [
-      "/images/products/smartphones/phn-001.webp"
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Natural Titanium",
@@ -1088,7 +1110,8 @@
       "200mp-camera"
     ],
     "images": [
-      "/images/products/smartphones/phn-002.webp"
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Titanium Gray",
@@ -1144,7 +1167,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-003.webp"
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1192,7 +1216,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-004.webp"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1240,7 +1265,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-005.webp"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1288,7 +1314,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-006.webp"
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1336,7 +1363,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-007.webp"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1384,7 +1412,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-008.webp"
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1432,7 +1461,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-009.webp"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1480,7 +1510,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-010.webp"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1528,7 +1559,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-011.webp"
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1576,7 +1608,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-012.webp"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1624,7 +1657,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-013.webp"
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1672,7 +1706,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-014.webp"
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1720,7 +1755,8 @@
       "budget-phone"
     ],
     "images": [
-      "/images/products/smartphones/phn-015.webp"
+      "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1766,7 +1802,8 @@
       "drawing-canvas"
     ],
     "images": [
-      "/images/products/tablets/tab-001.webp"
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Space Grey",
@@ -1822,7 +1859,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-002.webp"
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1868,7 +1906,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-003.webp"
+      "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1914,7 +1953,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-004.webp"
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -1960,7 +2000,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-005.webp"
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2006,7 +2047,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-006.webp"
+      "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2052,7 +2094,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-007.webp"
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2098,7 +2141,8 @@
       "study-companion"
     ],
     "images": [
-      "/images/products/tablets/tab-008.webp"
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2146,7 +2190,8 @@
       "display-monitor"
     ],
     "images": [
-      "/images/products/monitors/mon-001.webp"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Platinum Silver"
@@ -2200,7 +2245,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-002.webp"
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2246,7 +2292,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-003.webp"
+      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2292,7 +2339,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-004.webp"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2338,7 +2386,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-005.webp"
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2384,7 +2433,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-006.webp"
+      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2430,7 +2480,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-007.webp"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2476,7 +2527,8 @@
       "computer-accessories"
     ],
     "images": [
-      "/images/products/monitors/mon-008.webp"
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2521,7 +2573,8 @@
       "tactile-typing"
     ],
     "images": [
-      "/images/products/keyboards/key-001.webp"
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Classic Charcoal",
@@ -2573,7 +2626,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-002.webp"
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2616,7 +2670,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-003.webp"
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2659,7 +2714,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-004.webp"
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2702,7 +2758,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-005.webp"
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2745,7 +2802,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-006.webp"
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2788,7 +2846,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-007.webp"
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2831,7 +2890,8 @@
       "office-desktop"
     ],
     "images": [
-      "/images/products/keyboards/key-008.webp"
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2877,7 +2937,8 @@
       "productivity-mouse"
     ],
     "images": [
-      "/images/products/mice/mou-001.webp"
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Graphite Black",
@@ -2930,7 +2991,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-002.webp"
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -2974,7 +3036,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-003.webp"
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3018,7 +3081,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-004.webp"
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3062,7 +3126,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-005.webp"
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3106,7 +3171,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-006.webp"
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3150,7 +3216,8 @@
       "office-accessories"
     ],
     "images": [
-      "/images/products/mice/mou-007.webp"
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3196,7 +3263,8 @@
       "studio-sound"
     ],
     "images": [
-      "/images/products/headphones/aud-001.webp"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Midnight Black",
@@ -3248,7 +3316,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-002.webp"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3291,7 +3360,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-003.webp"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": true,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3334,7 +3404,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-004.webp"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3377,7 +3448,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-005.webp"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3420,7 +3492,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-006.webp"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3463,7 +3536,8 @@
       "bluetooth-audio"
     ],
     "images": [
-      "/images/products/headphones/aud-007.webp"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3506,7 +3580,8 @@
       "anker-power"
     ],
     "images": [
-      "/images/products/accessories/acc-001.webp"
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "colorOptions": [
       "Space Grey",
@@ -3558,7 +3633,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-002.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3601,7 +3677,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-003.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3644,7 +3721,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-004.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3687,7 +3765,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-005.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3730,7 +3809,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-006.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",
@@ -3773,7 +3853,8 @@
       "durable-braid"
     ],
     "images": [
-      "/images/products/accessories/acc-007.webp"
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif",
+      "https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif"
     ],
     "featured": false,
     "createdAt": "2026-07-06T10:00:00.000Z",

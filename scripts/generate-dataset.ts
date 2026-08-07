@@ -81,7 +81,11 @@ addProduct({
   warranty: 'Limited 1-year warranty',
   useCases: ['Coding', 'Video editing', '3D design', 'Business'],
   tags: ['premium-laptop', 'm3-pro', 'coding', 'lightweight', 'macbook', '1tb-ssd'],
-  images: ['/images/products/laptops/lap-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Space Grey', 'Silver'],
   highlights: ['Liquid Retina XDR Display', 'Apple Silicon M3 Pro', 'Up to 22 Hours Battery Life'],
   featured: true,
@@ -119,7 +123,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['College', 'Office work', 'Graphic design', 'Travel'],
   tags: ['oled-display', 'lightweight', 'intel-arc', 'productivity', 'travel-ready'],
-  images: ['/images/products/laptops/lap-002.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1544731612-de7f96afe55f?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Pine Grey', 'Celadon Blue'],
   highlights: ['2.8K 120Hz OLED Panel', 'Intel Core Ultra Power', 'Ultralight Chassis'],
   featured: true,
@@ -157,7 +164,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['College', 'Office work', 'Coding'],
   tags: ['student-laptop', 'budget-friendly', 'full-size-keyboard', 'ryzen-powered'],
-  images: ['/images/products/laptops/lap-003.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Platinum Silver', 'Carbon Black'],
   highlights: ['ComfortView Display Tech', 'AMD Ryzen Processor', 'Fast Charging Support'],
   featured: false,
@@ -194,7 +204,10 @@ addProduct({
   warranty: '3 years',
   useCases: ['Coding', 'Office work', 'Business', 'Travel'],
   tags: ['business-laptop', 'thinkpad', 'durable', 'windows-pro', 'coding'],
-  images: ['/images/products/laptops/lap-004.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Thunder Black'],
   highlights: ['MIL-STD 810H Certified', 'Tactile Keyboard with TrackPoint', 'dTPM 2.0 Security Chip'],
   featured: false,
@@ -232,7 +245,10 @@ addProduct({
   warranty: '2 years',
   useCases: ['Gaming', 'Video editing', '3D design'],
   tags: ['gaming-laptop', 'rtx-4080', 'i9-processor', '240hz-display', '2tb-ssd'],
-  images: ['/images/products/laptops/lap-005.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Eclipse Gray'],
   highlights: ['RTX 4080 Desktop Grade GPU', '240Hz ROG Nebula Display', 'Tri-Fan Thermal Technology'],
   featured: true,
@@ -329,7 +345,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['Photography', 'Content creation', 'Everyday use', 'Business'],
   tags: ['ios-phone', 'premium-phone', 'triple-camera', 'titanium-body'],
-  images: ['/images/products/smartphones/phn-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Natural Titanium', 'Blue Titanium', 'White Titanium'],
   highlights: ['Titanium Architecture Design', 'Photonic Engine Triple Camera', 'ProMotion 120Hz Display'],
   featured: true,
@@ -367,7 +386,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['Photography', 'Mobile gaming', 'Business', 'Content creation'],
   tags: ['galaxy-phone', 'android-flagship', 'stylus-included', '200mp-camera'],
-  images: ['/images/products/smartphones/phn-002.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Titanium Gray', 'Titanium Black'],
   highlights: ['200 Megapixel Quad Camera', 'Integrated S Pen Stylus', 'Snapdragon 8 Gen 3 Chip'],
   featured: true,
@@ -458,7 +480,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['College', 'Graphic design', 'Travel'],
   tags: ['tablet', 'ipad-air', 'm2-tablet', 'drawing-canvas'],
-  images: ['/images/products/tablets/tab-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Space Grey', 'Starlight', 'Purple'],
   highlights: ['Liquid Retina TrueTone Display', 'Powerful M2 Silicon Processor', 'Apple Pencil Pro Compatible'],
   featured: true,
@@ -542,7 +567,10 @@ addProduct({
   warranty: '3 years',
   useCases: ['Office work', 'Graphic design', 'Video editing', 'Programming'],
   tags: ['4k-monitor', 'ips-panel', 'usb-c-hub', 'color-accurate', 'display-monitor'],
-  images: ['/images/products/monitors/mon-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Platinum Silver'],
   highlights: ['Ultra HD 4K Resolution', '90W USB-C Power Delivery', 'IPS Wide Viewing Angles'],
   featured: true,
@@ -624,7 +652,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['Coding', 'Office work', 'Gaming'],
   tags: ['mechanical-keyboard', 'wireless-keyboard', 'hot-swappable', 'keychron', 'tactile-typing'],
-  images: ['/images/products/keyboards/key-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Classic Charcoal', 'Space Gray'],
   highlights: ['Hot-Swappable Switch Sockets', 'Bluetooth & Wired Dual Mode', 'Premium Aluminium Frame'],
   featured: true,
@@ -704,7 +735,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['Office work', 'Graphic design', 'Video editing', 'Programming'],
   tags: ['ergonomic-mouse', 'wireless-mouse', 'logitech', 'multi-device-mouse', 'productivity-mouse'],
-  images: ['/images/products/mice/mou-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Graphite Black', 'Pale Gray'],
   highlights: ['8K DPI Glass Tracking Sensor', 'MagSpeed Quiet-Scroller Wheel', 'USB-C Quick-Charge Power'],
   featured: true,
@@ -784,7 +818,10 @@ addProduct({
   warranty: '1 year',
   useCases: ['Office work', 'Video editing', 'Travel', 'Everyday use'],
   tags: ['noise-cancelling', 'wireless-headphones', 'anc-headphones', 'sony-audio', 'studio-sound'],
-  images: ['/images/products/headphones/aud-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Midnight Black', 'Platinum Silver'],
   highlights: ['Industry-leading Active Noise Cancel', 'Hi-Res Audio LDAC Codec Support', 'Speak-to-Chat Automatic Pause'],
   featured: true,
@@ -863,7 +900,10 @@ addProduct({
   warranty: '6 months',
   useCases: ['Office work', 'Programming', 'Travel'],
   tags: ['usb-c-hub', 'multiport-adapter', 'laptop-accessories', 'anker-power'],
-  images: ['/images/products/accessories/acc-001.webp'],
+  images: [
+    'https://images.unsplash.com/photo-1616440342230-017fb6ce55f6?auto=format&fit=crop&w=1000&q=80&fm=avif',
+    'https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=1000&q=80&fm=avif'
+  ],
   colorOptions: ['Space Grey', 'Anodized Silver'],
   highlights: ['4K HDMI Video Transmission', '100W Fast Charging Inset', 'Gigabit Ethernet Connection'],
   featured: true,
