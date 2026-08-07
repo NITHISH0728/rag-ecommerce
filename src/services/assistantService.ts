@@ -31,7 +31,7 @@ export interface RecommendedProduct {
   category: string;
   price: number;
   currency: string;
-  rating: float;
+  rating: number;
   stock: number;
   stock_status: string;
   warranty: string;

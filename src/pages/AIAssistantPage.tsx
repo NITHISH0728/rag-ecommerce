@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useSearchParams, useNavigate, Link } from 'react-router-dom';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import {
   Bot,
   Send,
@@ -17,7 +17,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
-import { askAssistantStream, clearConversation, type ChatResponse, type ChatStreamEvent, type RecommendedProduct, type ProductCitation } from '../services/assistantService';
+import { askAssistantStream, clearConversation, type ChatStreamEvent, type RecommendedProduct, type ProductCitation } from '../services/assistantService';
 import { useCartStore } from '../stores/useCartStore';
 import { useWishlistStore } from '../stores/useWishlistStore';
 import { useCompareStore } from '../stores/useCompareStore';
@@ -197,7 +197,7 @@ export const AIAssistantPage: React.FC = () => {
       );
     } catch (err: any) {
       if (err.name === 'AbortError') {
-        logger.info('Generation cancelled by user.');
+        console.info('Generation cancelled by user.');
         setMessages((prev) => [
           ...prev.filter((m) => m.id !== assistantMsgId),
           {
@@ -416,7 +416,7 @@ export const AIAssistantPage: React.FC = () => {
                         return (
                           <div
                             key={p.product_id}
-                            ref={(el) => (cardRefs.current[p.product_id] = el)}
+                            ref={(el) => { cardRefs.current[p.product_id] = el; }}
                             className={`rounded-xl border bg-white p-3 space-y-2.5 transition-all duration-300 relative overflow-hidden flex flex-col justify-between ${
                               isHighlighted
                                 ? 'border-[#2563EB] ring-2 ring-[#2563EB]/20 shadow-md scale-[1.01]'
