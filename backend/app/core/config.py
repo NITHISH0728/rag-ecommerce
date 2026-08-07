@@ -87,9 +87,10 @@ class Settings(BaseSettings):
         if self.RAG_TOP_K_PRODUCTS > self.RAG_TOP_K_CHUNKS:
             raise ValueError("RAG_TOP_K_PRODUCTS cannot be greater than RAG_TOP_K_CHUNKS")
 
-        # Validate Groq Key
+        # Validate Groq Key (warn if missing, do not crash server startup)
         if not self.GROQ_API_KEY:
-            raise ValueError("GROQ_API_KEY is required.")
+            import logging
+            logging.getLogger("shopsmart-config").warning("GROQ_API_KEY is missing from environment. LLM chat functions will be unavailable until set.")
 
         return self
 
