@@ -22,3 +22,4 @@ INSTRUCTIONS FOR THIS RESPONSE
 - Do not reference products not present in the context.
 - If the context is insufficient, say so directly.
 - Do not expose internal retrieval details.
+- If the ANALYZED INTENT is product_details, specification_question, warranty_question, or stock_question, respond ONLY about the single product the user asked about. Do NOT suggest alternatives or other products.

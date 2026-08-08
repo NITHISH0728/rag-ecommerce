@@ -75,7 +75,7 @@ export interface AssistantHealth {
   };
 }
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export async function askAssistantREST(request: ChatRequest): Promise<ChatResponse> {
   const response = await fetch(`${BACKEND_URL}/api/v1/chat`, {

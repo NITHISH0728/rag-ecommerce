@@ -230,11 +230,17 @@ class RAGOrchestrator:
         # Deduplicate chunk results by keeping the highest scoring chunk per product
         unique_results: List[VectorSearchResult] = []
         seen_products = set()
+        
+        # Intent-aware product limiting: single-product intents only return the top match
+        SINGLE_PRODUCT_INTENTS = {"product_details", "specification_question", "warranty_question", "stock_question"}
+        is_single_product_query = analysis.intent in SINGLE_PRODUCT_INTENTS
+        max_products = 1 if is_single_product_query else settings.RAG_TOP_K_PRODUCTS
+        
         for c in ranked_chunks:
             if c.product_id not in seen_products:
                 seen_products.add(c.product_id)
                 unique_results.append(c)
-                if len(unique_results) >= settings.RAG_TOP_K_PRODUCTS:
+                if len(unique_results) >= max_products:
                     break
 
         # 7. No matches fallback
@@ -265,12 +271,14 @@ class RAGOrchestrator:
 
         # 10. Build Prompts & Generate Response
         sys_prompt = self.prompt_builder.build_system_prompt()
+        max_recs = 1 if is_single_product_query else 5
         user_prompt = self.prompt_builder.build_user_prompt(
             user_question=message,
             intent=analysis.intent,
             applied_filters=json.dumps(active_filters.model_dump(exclude_none=True)),
             retrieved_context=context_str,
-            conversation_context=history_context
+            conversation_context=history_context,
+            maximum_recommendations=max_recs
         )
 
         messages = [
@@ -397,13 +405,18 @@ class RAGOrchestrator:
             keywords=analysis.keywords
         )
         
+        # Intent-aware product limiting for streaming path
+        SINGLE_PRODUCT_INTENTS = {"product_details", "specification_question", "warranty_question", "stock_question"}
+        is_single_product_query = analysis.intent in SINGLE_PRODUCT_INTENTS
+        max_products = 1 if is_single_product_query else settings.RAG_TOP_K_PRODUCTS
+        
         unique_results = []
         seen_products = set()
         for c in ranked_chunks:
             if c.product_id not in seen_products:
                 seen_products.add(c.product_id)
                 unique_results.append(c)
-                if len(unique_results) >= settings.RAG_TOP_K_PRODUCTS:
+                if len(unique_results) >= max_products:
                     break
 
         yield ChatStreamEvent(event="products_retrieved", data={"count": len(unique_results)})
@@ -440,12 +453,14 @@ class RAGOrchestrator:
         history_context = "\n".join(history_lines)
 
         sys_prompt = self.prompt_builder.build_system_prompt()
+        max_recs = 1 if is_single_product_query else 5
         user_prompt = self.prompt_builder.build_user_prompt(
             user_question=message,
             intent=analysis.intent,
             applied_filters=json.dumps(active_filters.model_dump(exclude_none=True)),
             retrieved_context=context_str,
-            conversation_context=history_context
+            conversation_context=history_context,
+            maximum_recommendations=max_recs
         )
 
         messages = [
